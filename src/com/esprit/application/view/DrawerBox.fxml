@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="144.0" styleClass="vbox" stylesheets="@../StyleSheet/StyleSheet.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.esprit.application.Controller.DrawerBoxController">
+   <children>
+      <ImageView fitHeight="89.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../StyleSheet/material2.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="bt_promo" accessibleText="Promotions" onAction="#promotionAction" prefHeight="54.0" prefWidth="223.0" ripplerFill="#64c4d3" styleClass="jfxbutton" stylesheets="@../StyleSheet/StyleSheet.css" text="client" textFill="WHITE" />
+      <JFXButton accessibleText="Evenement" onAction="#eventAction" prefHeight="49.0" prefWidth="227.0" ripplerFill="#64c4d3" styleClass="jfxbutton" stylesheets="@../StyleSheet/StyleSheet.css" text="admin" textFill="WHITE" />
+      <JFXButton accessibleText="Quitter" onAction="#logOut" prefHeight="62.0" prefWidth="223.0" ripplerFill="#64c4d3" styleClass="jfxbutton" stylesheets="@../StyleSheet/StyleSheet.css" text="Déconnexion" textFill="WHITE" />
+   </children>
+</VBox>
